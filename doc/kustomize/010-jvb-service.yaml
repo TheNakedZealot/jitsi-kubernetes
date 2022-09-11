@@ -6,7 +6,7 @@ metadata:
   name: jvb-udp
   namespace: jitsi
 spec:
-  type: NodePort
+  type: ClusterIP
   externalTrafficPolicy: Cluster
   ports:
   - port: 30300
